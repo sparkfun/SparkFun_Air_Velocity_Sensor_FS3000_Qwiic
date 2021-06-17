@@ -37,9 +37,9 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -190,23 +190,20 @@
 <plain>
 <wire x1="0" y1="0" x2="0" y2="25.4" width="0.2032" layer="20"/>
 <wire x1="0" y1="25.4" x2="15.24" y2="25.4" width="0.2032" layer="20"/>
-<wire x1="15.24" y1="25.4" x2="15.2146" y2="17.3228" width="0.2032" layer="20"/>
-<wire x1="15.2146" y1="17.3228" x2="25.3746" y2="17.3228" width="0.2032" layer="20"/>
+<wire x1="15.24" y1="25.4" x2="15.24" y2="17.3228" width="0.2032" layer="20"/>
+<wire x1="15.24" y1="17.3228" x2="25.3746" y2="17.3228" width="0.2032" layer="20"/>
 <wire x1="25.3746" y1="17.3228" x2="25.4" y2="8.1026" width="0.2032" layer="20"/>
 <wire x1="25.4" y1="8.1026" x2="15.24" y2="8.1026" width="0.2032" layer="20"/>
 <wire x1="15.24" y1="8.1026" x2="15.24" y2="0" width="0.2032" layer="20"/>
 <wire x1="15.24" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="24.511" y="12.827" size="1.27" layer="16" font="vector" ratio="15" rot="SMR270" align="center">v01</text>
-<dimension x1="2.54" y1="22.86" x2="22.86" y2="22.86" x3="12.7" y3="31.75" textsize="1.27" textratio="15" layer="47" unit="inch" visible="yes"/>
-<dimension x1="0" y1="25.4" x2="0" y2="0" x3="-8.89" y3="12.7" textsize="1.27" textratio="15" layer="47" unit="inch" visible="yes"/>
-<text x="15.24" y="-7.62" size="1.778" layer="51" font="vector">Pete Lewis</text>
-<dimension x1="0" y1="25.4" x2="25.4" y2="25.4" x3="12.7" y3="35.56" textsize="1.27" layer="47" unit="inch" visible="yes"/>
-<dimension x1="2.54" y1="2.54" x2="2.54" y2="22.86" x3="-3.81" y3="12.7" textsize="1.27" layer="47" unit="inch" visible="yes"/>
-<dimension x1="25.4" y1="0" x2="25.4" y2="12.7" x3="30.48" y3="6.35" textsize="1.27" layer="47" unit="inch" visible="yes"/>
-<dimension x1="0" y1="0" x2="0" y2="2.54" x3="-1.27" y3="1.27" textsize="1.27" layer="47" unit="inch" visible="yes"/>
-<dimension x1="0" y1="25.4" x2="2.54" y2="25.4" x3="1.27" y3="27.94" textsize="1.27" layer="47" unit="inch" visible="yes"/>
-<dimension x1="25.4" y1="25.4" x2="22.86" y2="25.4" x3="24.13" y3="27.94" textsize="1.27" layer="47" unit="inch" visible="yes"/>
-<dimension x1="0" y1="25.4" x2="0" y2="22.86" x3="-6.35" y3="24.13" textsize="1.27" layer="47" unit="inch" visible="yes"/>
+<dimension x1="0" y1="25.4" x2="0" y2="0" x3="-12.7" y3="12.7" textsize="1.27" layer="47" unit="inch"/>
+<text x="13.97" y="-12.7" size="1.778" layer="51" font="vector">Pete Lewis</text>
+<dimension x1="0" y1="25.4" x2="25.4" y2="25.4" x3="12.7" y3="39.37" textsize="1.27" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="2.54" x2="2.54" y2="22.86" x3="-8.89" y3="12.7" textsize="1.27" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="0" y2="2.54" x3="-1.27" y3="1.27" textsize="1.27" layer="47" unit="inch"/>
+<dimension x1="0" y1="25.4" x2="2.54" y2="25.4" x3="1.27" y3="27.94" textsize="1.27" layer="47" unit="inch"/>
+<dimension x1="0" y1="25.4" x2="0" y2="22.86" x3="-6.35" y3="24.13" textsize="1.27" layer="47" unit="inch"/>
 <wire x1="12.954" y1="14.605" x2="13.081" y2="14.224" width="0.2032" layer="21"/>
 <wire x1="13.081" y1="14.224" x2="12.954" y2="12.827" width="0.2032" layer="21" curve="-47.258742"/>
 <wire x1="12.954" y1="12.827" x2="13.081" y2="11.557" width="0.2032" layer="21" curve="69.068596"/>
@@ -230,6 +227,14 @@
 <vertex x="20.537715625" y="11.684"/>
 <vertex x="21.517428125" y="11.684"/>
 </polygon>
+<text x="-3.81" y="-16.51" size="1.778" layer="47" font="vector">Measure Units: INCHES</text>
+<dimension x1="0" y1="25.4" x2="15.24" y2="25.4" x3="7.62" y3="35.56" textsize="1.27" layer="47" unit="inch"/>
+<dimension x1="15.2146" y1="17.3228" x2="25.3746" y2="17.3228" x3="20.2946" y3="35.56" textsize="1.27" layer="47" unit="inch"/>
+<dimension x1="25.3746" y1="17.3228" x2="25.4" y2="8.1026" x3="30.479928125" y3="12.726728125" textsize="1.27" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="6.35" y2="1.27" x3="3.175" y3="-2.8702" textsize="1.27" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="0" x2="5.08" y2="12.7" x3="-5.2324" y3="6.35" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="0" y1="25.4" x2="11.43" y2="24.13" x3="5.715" y3="31.75" textsize="1.27" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="25.3746" y1="17.3228" x2="19.685" y2="12.7" x3="22.5298" y3="21.59" textsize="1.27" layer="47" dtype="horizontal" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -4554,16 +4559,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="FS3000">
 <packages>
 <package name="FS3000">
-<smd name="8" x="3.2" y="0" dx="1.8" dy="0.8" layer="1"/>
-<smd name="9" x="3.2" y="1.27" dx="1.8" dy="0.8" layer="1"/>
-<smd name="10" x="3.2" y="2.54" dx="1.8" dy="0.8" layer="1"/>
-<smd name="7" x="3.2" y="-1.27" dx="1.8" dy="0.8" layer="1"/>
-<smd name="6" x="3.2" y="-2.54" dx="1.8" dy="0.8" layer="1"/>
-<smd name="3" x="-3.2" y="0" dx="1.8" dy="0.8" layer="1"/>
-<smd name="2" x="-3.2" y="1.27" dx="1.8" dy="0.8" layer="1"/>
-<smd name="1" x="-3.2" y="2.54" dx="1.8" dy="0.8" layer="1"/>
-<smd name="4" x="-3.2" y="-1.27" dx="1.8" dy="0.8" layer="1"/>
-<smd name="5" x="-3.2" y="-2.54" dx="1.8" dy="0.8" layer="1"/>
+<smd name="8" x="3.2" y="0" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="9" x="3.2" y="1.27" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="10" x="3.2" y="2.54" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="7" x="3.2" y="-1.27" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="6" x="3.2" y="-2.54" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="3" x="-3.2" y="0" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="2" x="-3.2" y="1.27" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="1" x="-3.2" y="2.54" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="4" x="-3.2" y="-1.27" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="5" x="-3.2" y="-2.54" dx="1.8" dy="0.8" layer="1" cream="no"/>
 <wire x1="-4.04" y1="-3.52" x2="-4.04" y2="-4.17" width="0.2032" layer="21"/>
 <wire x1="-4.04" y1="-4.17" x2="4.02" y2="-4.17" width="0.2032" layer="21"/>
 <wire x1="4.02" y1="-4.17" x2="4.02" y2="-3.52" width="0.2032" layer="21"/>
@@ -4573,8 +4578,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="3.85" y1="4" x2="3.85" y2="-4" width="0.0762" layer="51"/>
 <wire x1="3.85" y1="-4" x2="-3.85" y2="-4" width="0.0762" layer="51"/>
 <wire x1="-3.85" y1="-4" x2="-3.85" y2="4" width="0.0762" layer="51"/>
-<smd name="11" x="0" y="-3.24" dx="2" dy="1.59" layer="1" roundness="75"/>
-<smd name="12" x="0" y="3.24" dx="2" dy="1.59" layer="1" roundness="75"/>
+<smd name="11" x="0" y="-3.24" dx="2" dy="1.59" layer="1" roundness="75" cream="no"/>
+<smd name="12" x="0" y="3.24" dx="2" dy="1.59" layer="1" roundness="75" cream="no"/>
 <polygon width="0.01" layer="1">
 <vertex x="1" y="3.09"/>
 <vertex x="-1" y="3.09"/>
@@ -4599,6 +4604,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="-1.905" x2="0.381" y2="-1.524" width="0.0762" layer="51"/>
 <wire x1="0" y1="-1.905" x2="-0.381" y2="-1.524" width="0.0762" layer="51"/>
 <text x="-1.651" y="0.889" size="0.6096" layer="51" font="vector">AIRFLOW</text>
+<rectangle x1="-4.064" y1="2.286" x2="-2.54" y2="2.794" layer="31"/>
+<rectangle x1="-4.064" y1="1.016" x2="-2.54" y2="1.524" layer="31"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-2.54" y2="0.254" layer="31"/>
+<rectangle x1="-4.064" y1="-1.524" x2="-2.54" y2="-1.016" layer="31"/>
+<rectangle x1="-4.064" y1="-2.794" x2="-2.54" y2="-2.286" layer="31"/>
+<rectangle x1="2.54" y1="-2.794" x2="4.064" y2="-2.286" layer="31"/>
+<rectangle x1="2.54" y1="-1.524" x2="4.064" y2="-1.016" layer="31"/>
+<rectangle x1="2.54" y1="-0.254" x2="4.064" y2="0.254" layer="31"/>
+<rectangle x1="2.54" y1="1.016" x2="4.064" y2="1.524" layer="31"/>
+<rectangle x1="2.54" y1="2.286" x2="4.064" y2="2.794" layer="31"/>
+<rectangle x1="-0.635" y1="2.794" x2="0.635" y2="3.81" layer="31"/>
+<rectangle x1="-0.635" y1="-3.81" x2="0.635" y2="-2.794" layer="31"/>
 </package>
 </packages>
 </library>
@@ -4611,20 +4628,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="SparkFun-2-layer-TIGHT">
-<description language="en">&lt;b&gt;SparkFun 2 Layer Design Rule Checks - STANDARD/TIGHT/FAB-LIMIT&lt;/b&gt;
+<designrules name="SparkFun-2-Layer-General-JLCPCB">
+<description language="en">&lt;b&gt;2 Layer General Rules for JLCPCB&lt;/b&gt;
 &lt;p&gt;
-These rules have been curated by SparkFuns DFM commitee. After doing much research, communicating with our multiple fab houses, and getting quotes of various designs, we have compiled three DRU files. 
-&lt;p&gt;
-&lt;b&gt;STANDARD:&lt;/b&gt; This is more of a &quot;best case scenario&quot; set of limitations. If your design has the space, and/or you have the time to work within these parameters, please do. Larger trace width and clearance makes for easier visual inspection of the PCB while troubleshooting (useful in production and to the end user). It also allows for better ability to hack a trace (if you are crazy enough to scrape away the mask and solder to a trace). Another thing to keep in mind is that more metal is just more robust. 
-&lt;p&gt;
-&lt;b&gt;TIGHT:&lt;/b&gt; This is where cost comes into play. We have found that most fab houses begin to add extra charges when you go smaller than these specs. In some cases, going to less than 15 mil trace can increase the cost by 10%. (This is why we have set the min drill on this DRU to 15 mil) Same story for traces thinner than 7 mil. To avoid those extra charges, then stay within the rules of this DRU.
-&lt;p&gt;
-&lt;b&gt;FAB-LIMIT:&lt;/b&gt; These set of rules are at the very limit of most fab houses capabilities. You will pay more for these specs, and it should be used on designs that have a darned good reason to need 4 mil vias and 4 mil traces.
-&lt;p&gt;
-**NOTE Clearance, Distance, Sizes, and Restring are all set to different limits in each of these three DRU files. Please compare the files within the CAM job editor window of eagle to see all the numbers.
-&lt;p&gt;
-***NOTE, Please set your Net Classes to default (0mil for all settings), so that it won't effect the DRC when you run it with these settings.</description>
+These are the free and generally easy to produce 2-layer PCB design rules. You can certainly go smaller but if the design doesn't call for it, these rules provide good guidance.
+&lt;ul&gt;
+&lt;li&gt;2 Layer&lt;/li&gt;
+&lt;li&gt;7mil Trace/Space&lt;/li&gt;
+&lt;li&gt;7mil Annular Rings&lt;/li&gt;
+&lt;li&gt;12mil Vias&lt;/li&gt;
+&lt;li&gt;3mil Stop Mask&lt;/li&gt;
+&lt;/ul&gt;</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
@@ -4643,7 +4657,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <param name="mdDrill" value="7mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="7mil"/>
-<param name="msDrill" value="15mil"/>
+<param name="msDrill" value="0.3mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -4674,14 +4688,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="3mil"/>
+<param name="mlMaxStopFrame" value="3mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="25mil"/>
 <param name="srRoundness" value="0"/>
-<param name="srMinRoundness" value="0mil"/>
-<param name="srMaxRoundness" value="0mil"/>
+<param name="srMinRoundness" value="2mil"/>
+<param name="srMaxRoundness" value="2mil"/>
 <param name="slThermalIsolate" value="10mil"/>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
@@ -4820,9 +4834,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="15.24" y="22.733" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="15.24" y="26.162" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-15.24" y="-7.62" smashed="yes">
-<attribute name="DESIGNER" value="" x="-15.24" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="REV" value="" x="-15.24" y="-7.62" size="1.778" layer="27" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-16.51" y="-12.7" smashed="yes">
+<attribute name="DESIGNER" value="" x="-16.51" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="REV" value="" x="-16.51" y="-12.7" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="14.4526" y="13.4112" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.2146" y="13.4112" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -4861,7 +4875,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="U$24" library="output" package="#LED#0" value="" x="1.651" y="8.636" smashed="yes" rot="MR90"/>
 <element name="U$25" library="output" package="PWR0" value="" x="2.6416" y="7.8486" smashed="yes"/>
-<element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="8.255" y="18.161" smashed="yes"/>
+<element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="7.0866" y="22.6822" smashed="yes"/>
 <element name="U$27" library="output" package="#I2C#0" value="" x="1.0922" y="19.5072" smashed="yes" rot="MR90"/>
 <element name="C2" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="14.4526" y="15.748" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.6906" y="15.748" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -4924,14 +4938,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="8.89" y1="8.001" x2="8.89" y2="13.2" width="0.508" layer="1"/>
 <wire x1="2.1717" y1="8.001" x2="8.89" y2="8.001" width="0.2032" layer="16"/>
 <via x="8.89" y="8.001" extent="1-16" drill="0.381"/>
-<wire x1="5.08" y1="13.2" x2="3.9196" y2="13.2" width="0.508" layer="1"/>
-<wire x1="3.9196" y1="13.2" x2="3.9116" y2="13.208" width="0.508" layer="1"/>
-<via x="3.9116" y="13.208" extent="1-16" drill="0.381"/>
-<wire x1="3.9116" y1="13.208" x2="3.9116" y2="17.526" width="0.2032" layer="16"/>
-<wire x1="3.9116" y1="17.526" x2="3.9116" y2="20.447" width="0.2032" layer="16"/>
+<wire x1="5.08" y1="13.2" x2="3.8434" y2="13.2" width="0.508" layer="1"/>
+<wire x1="3.8434" y1="13.2" x2="3.8354" y2="13.208" width="0.508" layer="1"/>
+<via x="3.8354" y="13.208" extent="1-16" drill="0.381"/>
+<wire x1="3.8354" y1="13.208" x2="3.8354" y2="17.526" width="0.2032" layer="16"/>
+<wire x1="3.8354" y1="17.526" x2="3.8354" y2="20.3708" width="0.2032" layer="16"/>
 <wire x1="5.8293" y1="22.3647" x2="5.8293" y2="24.003" width="0.2032" layer="16"/>
-<wire x1="3.9116" y1="20.447" x2="5.8293" y2="22.3647" width="0.2032" layer="16"/>
-<wire x1="2.8448" y1="17.526" x2="3.9116" y2="17.526" width="0.2032" layer="16"/>
+<wire x1="3.8354" y1="20.3708" x2="5.8293" y2="22.3647" width="0.2032" layer="16"/>
+<wire x1="2.8448" y1="17.526" x2="3.8354" y2="17.526" width="0.2032" layer="16"/>
 </signal>
 <signal name="GND">
 <polygon width="0.254" layer="16">
@@ -5092,16 +5106,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="19,1,18e81a3e88fc8a2a"/>
-<approved hash="19,16,ed51138338576905"/>
-<approved hash="19,1,98189e4aec88eada"/>
-<approved hash="19,1,1a5b142206e00899"/>
-<approved hash="19,1,471a414cf80efe58"/>
-<approved hash="23,1,3df41a4d13217d03"/>
-<approved hash="23,1,68b6609616fd335a"/>
-<approved hash="23,1,504c0e0e312e0407"/>
-<approved hash="19,16,973215da79199d39"/>
-<approved hash="19,16,6ba3c54a069b1bd1"/>
+<approved hash="19,16,afb1cea581ad2b33"/>
+<approved hash="19,16,dd6306fd4cb6519d"/>
+<approved hash="19,16,83cfa084f38f9f5b"/>
+<approved hash="19,16,ae35cd35019dca35"/>
 </errors>
 </board>
 </drawing>

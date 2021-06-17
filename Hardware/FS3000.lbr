@@ -24,7 +24,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -175,16 +175,16 @@
 <library>
 <packages>
 <package name="FS3000">
-<smd name="8" x="3.2" y="0" dx="1.8" dy="0.8" layer="1"/>
-<smd name="9" x="3.2" y="1.27" dx="1.8" dy="0.8" layer="1"/>
-<smd name="10" x="3.2" y="2.54" dx="1.8" dy="0.8" layer="1"/>
-<smd name="7" x="3.2" y="-1.27" dx="1.8" dy="0.8" layer="1"/>
-<smd name="6" x="3.2" y="-2.54" dx="1.8" dy="0.8" layer="1"/>
-<smd name="3" x="-3.2" y="0" dx="1.8" dy="0.8" layer="1"/>
-<smd name="2" x="-3.2" y="1.27" dx="1.8" dy="0.8" layer="1"/>
-<smd name="1" x="-3.2" y="2.54" dx="1.8" dy="0.8" layer="1"/>
-<smd name="4" x="-3.2" y="-1.27" dx="1.8" dy="0.8" layer="1"/>
-<smd name="5" x="-3.2" y="-2.54" dx="1.8" dy="0.8" layer="1"/>
+<smd name="8" x="3.2" y="0" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="9" x="3.2" y="1.27" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="10" x="3.2" y="2.54" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="7" x="3.2" y="-1.27" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="6" x="3.2" y="-2.54" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="3" x="-3.2" y="0" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="2" x="-3.2" y="1.27" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="1" x="-3.2" y="2.54" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="4" x="-3.2" y="-1.27" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="5" x="-3.2" y="-2.54" dx="1.8" dy="0.8" layer="1" cream="no"/>
 <wire x1="-4.04" y1="-3.52" x2="-4.04" y2="-4.17" width="0.2032" layer="21"/>
 <wire x1="-4.04" y1="-4.17" x2="4.02" y2="-4.17" width="0.2032" layer="21"/>
 <wire x1="4.02" y1="-4.17" x2="4.02" y2="-3.52" width="0.2032" layer="21"/>
@@ -194,8 +194,8 @@
 <wire x1="3.85" y1="4" x2="3.85" y2="-4" width="0.0762" layer="51"/>
 <wire x1="3.85" y1="-4" x2="-3.85" y2="-4" width="0.0762" layer="51"/>
 <wire x1="-3.85" y1="-4" x2="-3.85" y2="4" width="0.0762" layer="51"/>
-<smd name="11" x="0" y="-3.24" dx="2" dy="1.59" layer="1" roundness="75"/>
-<smd name="12" x="0" y="3.24" dx="2" dy="1.59" layer="1" roundness="75"/>
+<smd name="11" x="0" y="-3.24" dx="2" dy="1.59" layer="1" roundness="75" cream="no"/>
+<smd name="12" x="0" y="3.24" dx="2" dy="1.59" layer="1" roundness="75" cream="no"/>
 <polygon width="0.01" layer="1">
 <vertex x="1" y="3.09"/>
 <vertex x="-1" y="3.09"/>
@@ -220,6 +220,18 @@
 <wire x1="0" y1="-1.905" x2="0.381" y2="-1.524" width="0.0762" layer="51"/>
 <wire x1="0" y1="-1.905" x2="-0.381" y2="-1.524" width="0.0762" layer="51"/>
 <text x="-1.651" y="0.889" size="0.6096" layer="51" font="vector">AIRFLOW</text>
+<rectangle x1="-4.064" y1="2.286" x2="-2.54" y2="2.794" layer="31"/>
+<rectangle x1="-4.064" y1="1.016" x2="-2.54" y2="1.524" layer="31"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-2.54" y2="0.254" layer="31"/>
+<rectangle x1="-4.064" y1="-1.524" x2="-2.54" y2="-1.016" layer="31"/>
+<rectangle x1="-4.064" y1="-2.794" x2="-2.54" y2="-2.286" layer="31"/>
+<rectangle x1="2.54" y1="-2.794" x2="4.064" y2="-2.286" layer="31"/>
+<rectangle x1="2.54" y1="-1.524" x2="4.064" y2="-1.016" layer="31"/>
+<rectangle x1="2.54" y1="-0.254" x2="4.064" y2="0.254" layer="31"/>
+<rectangle x1="2.54" y1="1.016" x2="4.064" y2="1.524" layer="31"/>
+<rectangle x1="2.54" y1="2.286" x2="4.064" y2="2.794" layer="31"/>
+<rectangle x1="-0.635" y1="2.794" x2="0.635" y2="3.81" layer="31"/>
+<rectangle x1="-0.635" y1="-3.81" x2="0.635" y2="-2.794" layer="31"/>
 </package>
 </packages>
 <symbols>
