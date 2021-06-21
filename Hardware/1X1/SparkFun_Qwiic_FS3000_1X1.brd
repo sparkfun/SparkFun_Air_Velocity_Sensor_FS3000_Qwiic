@@ -37,7 +37,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -55,9 +55,9 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -190,26 +190,19 @@
 <plain>
 <wire x1="0" y1="0" x2="0" y2="25.4" width="0.2032" layer="20"/>
 <wire x1="0" y1="25.4" x2="25.4" y2="25.4" width="0.2032" layer="20"/>
-<wire x1="25.4" y1="25.4" x2="25.3746" y2="17.3228" width="0.2032" layer="20"/>
-<wire x1="25.3746" y1="17.3228" x2="25.4" y2="8.1026" width="0.2032" layer="20"/>
-<wire x1="25.4" y1="8.1026" x2="25.4" y2="0" width="0.2032" layer="20"/>
+<wire x1="25.4" y1="25.4" x2="25.4" y2="0" width="0.2032" layer="20"/>
 <wire x1="25.4" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="0.9144" y="15.4178" size="1.27" layer="16" font="vector" ratio="15" rot="SMR90" align="center">v01</text>
 <dimension x1="0" y1="25.4" x2="0" y2="0" x3="-12.7" y3="12.7" textsize="1.27" layer="47" unit="inch"/>
 <text x="13.97" y="-12.7" size="1.778" layer="51" font="vector">Pete Lewis</text>
-<dimension x1="0" y1="25.4" x2="25.4" y2="25.4" x3="12.7" y3="39.37" textsize="1.27" layer="47" unit="inch"/>
+<dimension x1="0" y1="25.4" x2="25.4" y2="25.4" x3="12.7" y3="35.56" textsize="1.27" layer="47" unit="inch"/>
 <dimension x1="2.54" y1="2.54" x2="2.54" y2="22.86" x3="-8.89" y3="12.7" textsize="1.27" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="0" y2="2.54" x3="-1.27" y3="1.27" textsize="1.27" layer="47" unit="inch"/>
 <dimension x1="0" y1="25.4" x2="2.54" y2="25.4" x3="1.27" y3="27.94" textsize="1.27" layer="47" unit="inch"/>
 <dimension x1="0" y1="25.4" x2="0" y2="22.86" x3="-6.35" y3="24.13" textsize="1.27" layer="47" unit="inch"/>
 <text x="-3.81" y="-16.51" size="1.778" layer="47" font="vector">Measure Units: INCHES</text>
-<dimension x1="0" y1="25.4" x2="15.24" y2="25.4" x3="7.62" y3="35.56" textsize="1.27" layer="47" unit="inch"/>
-<dimension x1="15.2146" y1="17.3228" x2="25.3746" y2="17.3228" x3="20.2946" y3="35.56" textsize="1.27" layer="47" unit="inch"/>
-<dimension x1="25.3746" y1="17.3228" x2="25.4" y2="8.1026" x3="30.479928125" y3="12.726728125" textsize="1.27" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="6.35" y2="1.27" x3="3.175" y3="-2.8702" textsize="1.27" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="0" y1="0" x2="5.08" y2="12.7" x3="-5.2324" y3="6.35" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="0" y1="25.4" x2="11.43" y2="24.13" x3="5.715" y3="31.75" textsize="1.27" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="25.3746" y1="17.3228" x2="19.685" y2="12.7" x3="22.5298" y3="21.59" textsize="1.27" layer="47" dtype="horizontal" unit="inch"/>
 <wire x1="19.7104" y1="24.4094" x2="19.1008" y2="24.0792" width="0.1524" layer="21"/>
 <wire x1="19.1008" y1="24.0792" x2="18.4658" y2="24.4602" width="0.1524" layer="21"/>
 <wire x1="19.7104" y1="24.765" x2="19.1008" y2="24.4348" width="0.1524" layer="21"/>
@@ -231,6 +224,10 @@
 <rectangle x1="21.1709" y1="18.9484" x2="21.6154" y2="20.0279" layer="29"/>
 <rectangle x1="20.5105" y1="17.272" x2="20.955" y2="18.3515" layer="29"/>
 <rectangle x1="21.1455" y1="17.272" x2="21.59" y2="18.3515" layer="29"/>
+<dimension x1="0" y1="25.4" x2="12.7" y2="21.59" x3="6.35" y3="31.75" textsize="1.27" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="25.4" y1="25.4" x2="22.86" y2="22.86" x3="24.13" y3="27.94" textsize="1.27" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="25.4" y1="0" x2="22.86" y2="2.54" x3="29.21" y3="1.27" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="22.86" y1="22.86" x2="22.86" y2="25.4" x3="34.29" y3="24.13" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -5659,7 +5656,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="10" x="3.2" y="2.54" dx="1.8" dy="0.8" layer="1" cream="no"/>
 <smd name="7" x="3.2" y="-1.27" dx="1.8" dy="0.8" layer="1" cream="no"/>
 <smd name="6" x="3.2" y="-2.54" dx="1.8" dy="0.8" layer="1" cream="no"/>
-<smd name="3" x="-3.2" y="0" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="3" x="-3.05" y="0" dx="2.1" dy="0.8" layer="1" cream="no"/>
 <smd name="2" x="-3.2" y="1.27" dx="1.8" dy="0.8" layer="1" cream="no"/>
 <smd name="1" x="-3.2" y="2.54" dx="1.8" dy="0.8" layer="1" cream="no"/>
 <smd name="4" x="-3.2" y="-1.27" dx="1.8" dy="0.8" layer="1" cream="no"/>
@@ -6096,6 +6093,11 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <via x="3.6576" y="14.2494" extent="1-16" drill="0.381"/>
 <via x="14.5034" y="8.6614" extent="1-16" drill="0.381"/>
 <via x="13.5128" y="11.6586" extent="1-16" drill="0.381"/>
+<via x="7.62" y="8.89" extent="1-16" drill="0.381"/>
+<via x="5.08" y="8.89" extent="1-16" drill="0.381"/>
+<via x="10.16" y="2.54" extent="1-16" drill="0.381"/>
+<via x="10.16" y="6.35" extent="1-16" drill="0.381"/>
+<via x="16.4592" y="14.4272" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="SCL">
 <contactref element="J2" pad="4"/>
@@ -6109,9 +6111,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="17.7546" y1="15.621" x2="19.1756" y2="14.2" width="0.2032" layer="1"/>
 <wire x1="19.1756" y1="14.2" x2="20.32" y2="14.2" width="0.2032" layer="1"/>
 <wire x1="5.08" y1="11.2" x2="8.9676" y2="11.2" width="0.2032" layer="1"/>
-<wire x1="8.9676" y1="11.2" x2="10.1854" y2="9.9822" width="0.2032" layer="1"/>
-<wire x1="10.1854" y1="9.9822" x2="10.1854" y2="3.8354" width="0.2032" layer="1"/>
-<wire x1="10.1854" y1="3.8354" x2="10.16" y2="3.81" width="0.2032" layer="1"/>
+<wire x1="8.9676" y1="11.2" x2="10.8204" y2="9.3472" width="0.2032" layer="1"/>
+<wire x1="10.8204" y1="9.3472" x2="10.8204" y2="4.4704" width="0.2032" layer="1"/>
+<wire x1="10.8204" y1="4.4704" x2="10.16" y2="3.81" width="0.2032" layer="1"/>
 <via x="10.16" y="3.81" extent="1-16" drill="0.381"/>
 <wire x1="10.16" y1="3.81" x2="11.43" y2="3.81" width="0.2032" layer="16"/>
 <wire x1="11.43" y1="3.81" x2="13.97" y2="1.27" width="0.2032" layer="16"/>
@@ -6223,21 +6225,22 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="J1" pad="2"/>
 <wire x1="9.5" y1="23.368" x2="9.492" y2="23.376" width="0.2032" layer="1"/>
 <wire x1="9.492" y1="23.376" x2="7.4676" y2="23.376" width="0.2032" layer="1"/>
-<wire x1="7.4676" y1="23.376" x2="6.85" y2="22.7584" width="0.2032" layer="1"/>
-<wire x1="6.85" y1="22.7584" x2="6.5532" y2="22.7584" width="0.2032" layer="1"/>
+<wire x1="7.4676" y1="23.376" x2="7.4676" y2="22.868" width="0.2032" layer="1"/>
+<wire x1="7.4676" y1="22.868" x2="7.358" y2="22.7584" width="0.2032" layer="1"/>
+<wire x1="7.358" y1="22.7584" x2="6.5532" y2="22.7584" width="0.2032" layer="1"/>
 <via x="6.5532" y="22.7584" extent="1-16" drill="0.381"/>
 <wire x1="6.5532" y1="22.7584" x2="6.8707" y2="23.0759" width="0.2032" layer="16"/>
 <wire x1="6.8707" y1="23.0759" x2="6.8707" y2="24.003" width="0.2032" layer="16"/>
-<wire x1="9.5" y1="23.368" x2="10.8966" y2="23.368" width="0.2032" layer="1"/>
-<wire x1="12.0396" y1="22.225" x2="12.0396" y2="20.5994" width="0.2032" layer="1"/>
-<via x="12.0396" y="20.5994" extent="1-16" drill="0.381"/>
-<wire x1="12.0396" y1="20.5994" x2="15.6718" y2="16.9672" width="0.2032" layer="16"/>
-<wire x1="10.8966" y1="23.368" x2="12.0396" y2="22.225" width="0.2032" layer="1"/>
+<wire x1="9.5" y1="23.368" x2="10.5156" y2="23.368" width="0.2032" layer="1"/>
+<wire x1="11.6586" y1="22.225" x2="11.6586" y2="21.7424" width="0.2032" layer="1"/>
+<via x="11.6586" y="21.7424" extent="1-16" drill="0.381"/>
+<wire x1="11.6586" y1="21.7424" x2="15.6718" y2="17.7292" width="0.2032" layer="16"/>
+<wire x1="10.5156" y1="23.368" x2="11.6586" y2="22.225" width="0.2032" layer="1"/>
 <wire x1="19.05" y1="1.27" x2="19.05" y2="3.81" width="0.2032" layer="1"/>
 <wire x1="19.05" y1="3.81" x2="17.78" y2="5.08" width="0.2032" layer="1"/>
 <via x="17.78" y="5.08" extent="1-16" drill="0.381"/>
 <wire x1="17.78" y1="5.08" x2="15.6718" y2="7.1882" width="0.2032" layer="16"/>
-<wire x1="15.6718" y1="7.1882" x2="15.6718" y2="16.9672" width="0.2032" layer="16"/>
+<wire x1="15.6718" y1="7.1882" x2="15.6718" y2="17.7292" width="0.2032" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -6248,10 +6251,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="19,16,afb1cea581ad2b33"/>
-<approved hash="19,16,dd6306fd4cb6519d"/>
 <approved hash="19,16,83cfa084f38f9f5b"/>
 <approved hash="19,16,ae35cd35019dca35"/>
+<approved hash="19,16,acc22461c0c8d71d"/>
+<approved hash="19,16,9e9c62eacec99821"/>
 </errors>
 </board>
 </drawing>

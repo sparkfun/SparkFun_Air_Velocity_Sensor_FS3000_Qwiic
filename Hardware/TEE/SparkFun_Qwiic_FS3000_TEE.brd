@@ -5484,7 +5484,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="10" x="3.2" y="2.54" dx="1.8" dy="0.8" layer="1" cream="no"/>
 <smd name="7" x="3.2" y="-1.27" dx="1.8" dy="0.8" layer="1" cream="no"/>
 <smd name="6" x="3.2" y="-2.54" dx="1.8" dy="0.8" layer="1" cream="no"/>
-<smd name="3" x="-3.2" y="0" dx="1.8" dy="0.8" layer="1" cream="no"/>
+<smd name="3" x="-3.05" y="0" dx="2.1" dy="0.8" layer="1" cream="no"/>
 <smd name="2" x="-3.2" y="1.27" dx="1.8" dy="0.8" layer="1" cream="no"/>
 <smd name="1" x="-3.2" y="2.54" dx="1.8" dy="0.8" layer="1" cream="no"/>
 <smd name="4" x="-3.2" y="-1.27" dx="1.8" dy="0.8" layer="1" cream="no"/>
