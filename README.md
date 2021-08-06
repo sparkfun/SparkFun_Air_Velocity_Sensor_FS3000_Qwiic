@@ -1,11 +1,21 @@
-SparkFun Air Velocity Sensor Module - FS3000 (Qwiic)
+SparkFun Air Velocity Sensor Breakout - FS3000 (Qwiic)
 ========================================
 
-[![SparkFun Air Velocity Sensor Module - FS3000 (Qwiic)](https://cdn.sparkfun.com//assets/parts/1/6/2/2/4/17241-SparkFun_3-Axis_Digital_Accelerometer_Breakout_-_ADXL313__Qwiic_02.jpg)](https://www.sparkfun.com/products/17241)
+[![SparkFun Air Velocity Sensor Breakout - FS3000 (Qwiic)](https://cdn.sparkfun.com/assets/parts/1/7/4/8/8/18159-SparkFun_Tsunami_Super_WAV_Trigger__Qwiic_-01.jpg)](https://www.sparkfun.com/products/18377)
 
-[*SparkFun Air Velocity Sensor Module - FS3000 (Qwiic) (SEN-18377)*](https://www.sparkfun.com/products/18377)
+[*SparkFun Air Velocity Sensor Breakout - FS3000 (Qwiic) (SEN-18377)*](https://www.sparkfun.com/products/18377)
 
-Description...
+The SparkFun Air Velocity Sensor Breakout - FS3000 (Qwiic) makes it easy to use the Renesas FS3000 module. The FS3000 is a surface-mount type air velocity module utilizing a
+MEMS thermopile-based sensor.
+
+The FS3000 features a digital output with 12-bit resolution. The
+sensor comprises a “solid” thermal isolation technology and siliconcarbide coating to protect it from abrasive wear and water
+condensation.
+
+The FS3000 features a compact design fit for low profile
+enclosures.
+
+There are two versions of this sensor with different upper ranges (1005/1015). This SparkFun product utilizes the 1005 version which can sense 0-7.23m/s (0-16.17mph).
 
 Repository Contents
 -------------------
