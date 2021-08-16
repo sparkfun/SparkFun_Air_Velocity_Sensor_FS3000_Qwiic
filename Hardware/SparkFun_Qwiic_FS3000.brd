@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0425" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -37,9 +37,9 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="63" fill="5" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -219,15 +219,13 @@
 <wire x1="12.6746" y1="15.4432" x2="13.3096" y2="15.8242" width="0.1524" layer="22"/>
 <wire x1="12.065" y1="15.4178" x2="12.6746" y2="15.0368" width="0.1524" layer="22"/>
 <wire x1="12.6746" y1="15.0368" x2="13.3096" y2="15.4686" width="0.1524" layer="22"/>
-<rectangle x1="20.3454" y1="18.7706" x2="21.8694" y2="20.2184" layer="31"/>
-<rectangle x1="20.5359" y1="18.9484" x2="20.9804" y2="20.0279" layer="29"/>
-<rectangle x1="21.1709" y1="18.9484" x2="21.6154" y2="20.0279" layer="29"/>
-<rectangle x1="20.5105" y1="17.272" x2="20.955" y2="18.3515" layer="29"/>
-<rectangle x1="21.1455" y1="17.272" x2="21.59" y2="18.3515" layer="29"/>
 <dimension x1="0" y1="25.4" x2="12.7" y2="21.59" x3="6.35" y3="31.75" textsize="1.27" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="25.4" y1="25.4" x2="22.86" y2="22.86" x3="24.13" y3="27.94" textsize="1.27" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="25.4" y1="0" x2="22.86" y2="2.54" x3="29.21" y3="1.27" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="22.86" y1="22.86" x2="22.86" y2="25.4" x3="34.29" y3="24.13" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
+<rectangle x1="20.3835" y1="18.8595" x2="21.463" y2="19.939" layer="29"/>
+<rectangle x1="20.3835" y1="17.2085" x2="21.463" y2="18.288" layer="29"/>
+<rectangle x1="20.3835" y1="18.8595" x2="21.463" y2="19.939" layer="31"/>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
