@@ -26,7 +26,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-3-axis-accelerometer-adxl313-hookup-guide)** - Hookup guide for the SparkFun Qwiic 3-Axis Accelerometer (ADXL313)
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/air-velocity-sensor-breakout---fs3000-hookup-guide)** - Hookup guide for the SparkFun Qwiic Air Velocity Sensor - FS3000.
 * **[Product Repository](https://github.com/sparkfun/SparkFun_Air_Velocity_Sensor_FS3000_Qwiic)** - Main hardware repository (including schematic and board design files)
 
 Product Versions
