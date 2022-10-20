@@ -28,8 +28,10 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/air-velocity-sensor-breakout---fs3000-hookup-guide)** - Hookup guide for the SparkFun Qwiic Air Velocity Sensor - FS3000.
+
+* **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)** - Basic information on how to install an Arduino library.
 * **[Arduino Library](https://github.com/sparkfun/SparkFun_FS3000_Arduino_Library)** - Arduino Library for the Air Velocity Sensor FS3000.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/air-velocity-sensor-breakout---fs3000-hookup-guide)** - Hookup guide for the SparkFun Qwiic Air Velocity Sensor - FS3000.
 
 Product Versions
 ----------------
